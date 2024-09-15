@@ -44,4 +44,3 @@ public class HomeActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.layout_container, fragment).commit();
     }
 }
-}
