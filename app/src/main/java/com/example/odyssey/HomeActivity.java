@@ -18,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
 
         bottomNavigation = findViewById(R.id.bottomNavigation);
         bottomNavigation.setOnItemSelectedListener(menuItem -> {
@@ -27,7 +28,7 @@ public class HomeActivity extends AppCompatActivity {
                 fragment = new ProfileFragment();
             } else if (menuItem.getItemId() == R.id.navigation_history) {
                 fragment = new HistoryFragment();
-            } else if (menuItem.getItemId() == R.id.navigation_setting) {
+            } else if (menuItem.getItemId() == R.id.navigation_settings) {
                 fragment = new SettingFragment();
             } else {
                 fragment = new HomeFragment();
