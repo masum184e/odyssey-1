@@ -15,8 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         new Handler(Looper.getMainLooper()).postDelayed(() -> {
-            Intent mainIntent = new Intent(MainActivity.this, SigninActivity.class);
-            startActivity(mainIntent);
+            startActivity(new Intent(MainActivity.this, SigninActivity.class));
             finish();
         }, SPLASH_DISPLAY_LENGTH);
 
