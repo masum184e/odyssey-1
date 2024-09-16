@@ -24,6 +24,11 @@
     <string name="mobile_number_hint">Enter Your Mobile Number</string>
     <string name="role">Role</string>
     <string name="already_have_account">Already have an account ?</string>
+    <string name="default_name">Karim Khan</string>
+    <string name="default_number">+8801234567890</string>
+    <string name="zero">00</string>
+    <string name="total_rides">Total Rides</string>
+    <string name="total_km">Total KM</string>
 
     <string-array name="roles">
         <item>Driver</item>
